@@ -1,0 +1,325 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  max-width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 5rem;
+}
+
+.navbar__links a {
+  color: #667085;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.navbar__linkslist:hover {
+  color: #8E2424;
+  -webkit-text-decoration: 2px underline #8E2424;
+          text-decoration: 2px underline #8E2424;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background: none;
+  color: #667085;
+  font-size: 0.85rem;
+}
+
+.navbar_buttons--enter:hover {
+  color: #8E2424;
+  -webkit-text-decoration: 2px underline #8E2424;
+          text-decoration: 2px underline #8E2424;
+}
+
+.navbar__buttons--signup {
+  background-color: #8E2424;
+  border: 2px solid #8E2424;
+  color: #FFF;
+}
+
+.navbar__buttons--signup:hover {
+  background-color: #FFF;
+  border: 2px solid #8E2424;
+  color: #8E2424;
+}
+
+.aboutus__main {
+  padding: 6rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.aboutus__main span {
+  color: #8E2424;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.aboutus__main h1 {
+  font-size: 2rem;
+  color: #101828;
+  text-align: center;
+}
+
+.aboutus__main p {
+  color: #667085;
+  max-width: 60%;
+  text-align: center;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.aboutus__metrics {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+  padding: 0 8rem;
+}
+
+.aboutus_metricbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5rem;
+}
+
+.aboutus_metricbox h1 {
+  color: #8E2424;
+  font-size: 3rem;
+}
+
+.aboutus_metricbox span {
+  color: #667085;
+  line-height: 140%;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.aboutus_metricbox .aboutus__metrictitle {
+  color: #101828;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.jobopenings__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+  padding-top: 8rem;
+  gap: 1rem;
+}
+
+.jobopenings__main h2 {
+  text-align: center;
+  color: #101828;
+}
+
+.jobopenings__main span {
+  color: #8E2424;
+  background: rgba(142, 36, 36, 0.05);
+  padding: 0.5rem 0.8rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.jobopenings__main p {
+  text-align: center;
+  color: #667085;
+}
+
+.jobopenings__main img {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.jobopenings__list {
+  padding-top: 4rem;
+}
+
+.jobopenings__list span.jobopenings__box {
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #101828;
+}
+
+.jobopenings__role {
+  border: 1px solid #EAECF0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  color: #101828;
+}
+
+.jobopenings__role span.jobopenings__titles {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.jobopenings__role .jobopenings__info {
+  margin-top: 1rem;
+  font-size: 90%;
+  color: #667085;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.testimonials__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 80%;
+  margin: 8rem auto;
+  background-color: rgba(195, 25, 25, 0.05);
+  padding: 3rem 2rem;
+}
+
+.testimonials__main span {
+  color: #8E2424;
+  font-weight: 500;
+  text-align: center;
+}
+
+.testimonials__main img {
+  width: 48px;
+}
+
+.testimonials__main h2 {
+  color: #101828;
+  font-weight: 500;
+  text-align: center;
+  max-width: 70%;
+  margin: 2rem 0;
+}
+
+.testimonials__main span.testimonials__name {
+  color: #101828;
+  margin: 0.5rem 0;
+  font-weight: 400;
+}
+
+.testimonials__main span.testimonials__role {
+  color: #667085;
+  font-weight: 400;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F9FAFB;
+  padding: 6rem 1rem;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+footer h2 {
+  color: #101828;
+}
+
+footer span {
+  color: #667085;
+}
+
+footer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer input {
+  outline: none;
+  border: 1px solid #D0D5DD;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  width: 12rem;
+  margin-right: 1rem;
+}
+
+footer button {
+  background-color: #8E2424;
+  border: 2px solid #8E2424;
+  color: #FFF;
+}
+
+footer button:hover {
+  background-color: #FFF;
+  border: 2px solid #8E2424;
+  color: #8E2424;
+}
+/*# sourceMappingURL=style.css.map */

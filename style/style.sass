@@ -1,0 +1,220 @@
+$text-color: #667085
+$main-color: #8E2424
+$title-color: #101828
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  font-family: 'Inter', sans-serif
+
+body
+  max-width: 100%
+  height: 100vh
+
+nav
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 1rem 5rem
+
+.navbar__links
+  a
+    color: $text-color
+    text-decoration: none
+    margin-right: 2rem
+    font-size: 0.85rem
+    font-weight: 500
+
+.navbar__linkslist
+  &:hover
+    color: $main-color
+    text-decoration: 2px underline $main-color
+
+button
+  padding: 0.8rem 1rem
+  cursor: pointer
+  border: none
+  border-radius: 0.5rem
+  background: none
+  color: $text-color
+  font-size: 0.85rem
+
+.navbar_buttons--enter
+  &:hover
+    color: $main-color
+    text-decoration: 2px underline $main-color
+
+.navbar__buttons--signup
+  background-color: $main-color
+  border: 2px solid $main-color
+  color: #FFF
+
+.navbar__buttons--signup
+  &:hover
+    background-color: #FFF
+    border: 2px solid $main-color
+    color: $main-color
+
+.aboutus__main
+  padding: 6rem 1rem
+  display: flex
+  flex-direction: column
+  align-items: center
+  gap: 1rem
+  span
+    color: $main-color
+    font-size: 0.9rem
+    font-weight: 600
+  h1
+    font-size: 2rem
+    color: $title-color
+    text-align: center
+  p
+    color: $text-color
+    max-width: 60%
+    text-align: center
+    line-height: 1.5rem
+    font-weight: 400
+
+.aboutus__metrics
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  column-gap: 3rem
+  padding: 0 8rem
+
+.aboutus_metricbox
+  display: flex
+  flex-direction: column
+  gap: 0.5rem
+  h1
+    color: $main-color
+    font-size: 3rem
+  span
+    color: $text-color
+    line-height: 140%
+    font-size: 0.8rem
+    font-weight: 300
+
+.aboutus_metricbox .aboutus__metrictitle
+  color: $title-color
+  font-weight: 500
+  font-size: 1rem
+
+.jobopenings__main
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding: 0 1rem
+  padding-top: 8rem
+  gap: 1rem
+  h2
+    text-align: center
+    color: $title-color
+  span
+    color: $main-color
+    background: rgba(142, 36, 36, 0.05)
+    padding: 0.5rem 0.8rem
+    border-radius: 1rem
+    font-size: 0.8rem
+    font-weight: 600
+  p
+    text-align: center
+    color: $text-color
+  img
+    margin-top: 2rem
+    width: 80%
+
+.jobopenings__list
+  padding-top: 4rem
+
+.jobopenings__list span.jobopenings__box
+  display: block
+  max-width: 50%
+  margin: 0 auto
+  margin-top: 2rem
+  margin-bottom: 2rem
+  font-weight: bold
+  color: $title-color
+
+.jobopenings__role
+  border: 1px solid #EAECF0
+  border-radius: 0.5rem
+  padding: 1rem
+  max-width: 50%
+  margin: 0 auto
+  margin-bottom: 1rem
+  color: $title-color
+
+.jobopenings__role span.jobopenings__titles
+  font-weight: 500
+  margin-bottom: 16px
+
+.jobopenings__role .jobopenings__info
+  margin-top: 1rem
+  font-size: 90%
+  color: $text-color
+  display: flex
+  gap: 2rem
+
+.testimonials__main
+  display: flex
+  flex-direction: column
+  align-items: center
+  max-width: 80%
+  margin: 8rem auto
+  background-color: rgba(195, 25, 25, 0.05)
+  padding: 3rem 2rem
+  span
+    color: $main-color
+    font-weight: 500
+    text-align: center
+  img
+    width: 48px
+  h2
+    color: $title-color
+    font-weight: 500
+    text-align: center
+    max-width: 70%
+    margin: 2rem 0
+
+  span.testimonials__name
+    color: $title-color
+    margin: 0.5rem 0
+    font-weight: 400
+
+  span.testimonials__role
+    color: $text-color
+    font-weight: 400
+
+footer
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  background: #F9FAFB
+  padding: 6rem 1rem
+  gap: 1.5rem
+  text-align: center
+  h2
+    color: $title-color
+  span
+    color: $text-color
+  form
+    display: flex
+    justify-content: space-between
+  input
+    outline: none
+    border: 1px solid #D0D5DD
+    border-radius: 0.5rem
+    padding-left: 1rem
+    width: 12rem
+    margin-right: 1rem
+  button
+    background-color: $main-color
+    border: 2px solid $main-color
+    color: #FFF
+    &:hover
+      background-color: #FFF
+      border: 2px solid $main-color
+      color: $main-color
